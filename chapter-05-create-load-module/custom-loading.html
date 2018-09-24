@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>Custom Loading Code</title>
+</head>
+<body>
+  <h1>Using Custom Loading Code</h1>
+  <canvas id="canvas"></canvas>
+  <script type="application/javascript" src="custom-loading.js"></script>
+  <script type="application/javascript">
+    Module({
+      canvas: (() => document.getElementById('canvas'))(),
+    })
+      .then(() => {
+        console.log('Loaded!');
+      });
+  </script>
+</body>
+</html>

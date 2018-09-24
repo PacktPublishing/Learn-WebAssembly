@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>No Glue Code</title>
+  <script type="application/javascript" src="../common/load-wasm.js"></script>
+</head>
+<body>
+  <h1>No Glue Code</h1>
+  <canvas id="myCanvas" width="255" height="255"></canvas>
+  <div style="margin-top: 16px;">
+    <button id="actionButton" style="width: 100px; height: 24px;">
+      Pause
+    </button>
+  </div>
+  <script type="application/javascript">
+    const canvas = document.querySelector('#myCanvas');
+    const ctx = canvas.getContext('2d');
+
+    const env = {
+      table: new WebAssembly.Table({ initial: 8, element: 'anyfunc' }),
+      _jsFillRect: function (x, y, w, h) {
+        ctx.fillStyle = '#0000ff';
+        ctx.fillRect(x, y, w, h);
+      },
+      _jsClearRect: function() {
+        ctx.fillStyle = '#ff0000';
+        ctx.fillRect(0, 0, 255, 255);
+      },
+    };
+
+    loadWasm('without-glue.wasm', { env }).then(({ instance }) => {
+      const m = instance.exports;
+      m._init();
+
+      // Move the rectangle by 1px in the x and y every 20 milliseconds:
+      const loopRectMotion = () => {
+        setTimeout(() => {
+          m._moveRect();
+          if (m._getIsRunning()) loopRectMotion();
+        }, 20)
+      };
+
+      // Enable you to pause and resume the rectangle movement:
+      document.querySelector('#actionButton')
+        .addEventListener('click', event => {
+          const newIsRunning = !m._getIsRunning();
+          m._setIsRunning(newIsRunning);
+          event.target.innerHTML = newIsRunning ? 'Pause' : 'Start';
+          if (newIsRunning) loopRectMotion();
+        });
+
+      loopRectMotion();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>Interact with JS using Glue Code</title>
+</head>
+<body>
+  <h1>Interact with JS using Glue Code</h1>
+  <canvas id="myCanvas" width="255" height="255"></canvas>
+  <div style="margin-top: 16px;">
+    <button id="actionButton" style="width: 100px; height: 24px;">Pause</button>
+    <span style="width: 100px; margin-left: 8px;">Status:</span>
+    <span id="runStatus" style="width: 100px;"></span>
+  </div>
+  <script type="application/javascript" src="js-with-glue.js"></script>
+  <script type="application/javascript">
+    Module()
+      .then(result => {
+        const m = result.asm;
+        m._init();
+
+        // Move the rectangle by 1px in the x and y every 20 milliseconds:
+        const loopRectMotion = () => {
+          setTimeout(() => {
+            m._moveRect();
+            if (m._getIsRunning()) loopRectMotion();
+          }, 20)
+        };
+
+        // Enable you to pause and resume the rectangle movement:
+        document.querySelector('#actionButton')
+          .addEventListener('click', event => {
+            const newIsRunning = !m._getIsRunning();
+            m._setIsRunning(newIsRunning);
+            event.target.innerHTML = newIsRunning ? 'Pause' : 'Start';
+            if (newIsRunning) loopRectMotion();
+          });
+
+        loopRectMotion();
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>Interact with JS without Glue Code</title>
+  <script
+    type="application/javascript"
+    src="../common/load-wasm.js">
+  </script>
+  <style>
+    #myCanvas {
+      border: 2px solid black;
+    }
+    #actionButtonWrapper {
+      margin-top: 16px;
+    }
+    #actionButton {
+      width: 100px;
+      height: 24px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Interact with JS without Glue Code</h1>
+  <canvas id="myCanvas" width="255" height="255"></canvas>
+  <div id="actionButtonWrapper">
+    <button id="actionButton">Pause</button>
+  </div>
+  <script type="application/javascript">
+    const canvas = document.querySelector('#myCanvas');
+    const ctx = canvas.getContext('2d');
+
+    const fillCircle = (x, y, radius) => {
+      ctx.fillStyle = '#fed530';
+      // Face outline:
+      ctx.beginPath();
+      ctx.arc(x, y, radius, 0, 2 * Math.PI);
+      ctx.fill();
+      ctx.stroke();
+      ctx.closePath();
+
+      // Eyes:
+      ctx.fillStyle = '#000000';
+      ctx.beginPath();
+      ctx.arc(x - 15, y - 15, 6, 0, 2 * Math.PI);
+      ctx.arc(x + 15, y - 15, 6, 0, 2 * Math.PI);
+      ctx.fill();
+      ctx.closePath();
+
+      // Mouth:
+      ctx.beginPath();
+      ctx.moveTo(x - 20, y + 10);
+      ctx.quadraticCurveTo(x, y + 30, x + 20, y + 10);
+      ctx.lineWidth = 4;
+      ctx.stroke();
+      ctx.closePath();
+    };
+
+    const env = {
+      table: new WebAssembly.Table({ initial: 8, element: 'anyfunc' }),
+      _jsFillCircle: fillCircle,
+      _jsClearCircle: function() {
+        ctx.fillStyle = '#fff';
+        ctx.fillRect(0, 0, 255, 255);
+      },
+    };
+
+    loadWasm('js-without-glue.wasm', { env }).then(({ instance }) => {
+      const m = instance.exports;
+      m._init();
+
+      // Move the circle by 1px in the x and y every 20 milliseconds:
+      const loopCircleMotion = () => {
+        setTimeout(() => {
+          m._moveCircle();
+          if (m._getIsRunning()) loopCircleMotion();
+        }, 20)
+      };
+
+      // Enable you to pause and resume the circle movement:
+      document.querySelector('#actionButton')
+        .addEventListener('click', event => {
+          const newIsRunning = !m._getIsRunning();
+          m._setIsRunning(newIsRunning);
+          event.target.innerHTML = newIsRunning ? 'Pause' : 'Start';
+          if (newIsRunning) loopCircleMotion();
+        });
+
+      loopCircleMotion();
+    });
+  </script>
+</body>
+</html>
