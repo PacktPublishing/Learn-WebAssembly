@@ -1,0 +1,24 @@
+{
+  "name": "server-example",
+  "version": "1.0.0",
+  "description": "Example Express app using WebAssembly",
+  "repository": "https://github.com/mikerourke/learn-webassembly.git",
+  "scripts": {
+    "prebuild": "rimraf src/assets/main.wasm",
+    "build": "emcc lib/main.c -Os -s WASM=1 -s SIDE_MODULE=1 -s BINARYEN_ASYNC_COMPILATION=0 -s ALLOW_MEMORY_GROWTH=1 -o src/assets/main.wasm",
+    "start": "node src/index.js",
+    "watch": "nodemon src/* --exec 'npm start'"
+  },
+  "author": "Mike Rourke <mike.w.rourke@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.2.0",
+    "nodemon": "^1.18.3",
+    "rimraf": "^2.6.2"
+  }
+}

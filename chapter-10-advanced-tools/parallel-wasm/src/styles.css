@@ -1,0 +1,40 @@
+* {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 16px;
+}
+
+form.valueForm {
+  display: table;
+}
+
+div.valueForm {
+  display: table-row;
+}
+
+label, input {
+  display: table-cell;
+  margin-bottom: 16px;
+}
+
+label {
+  font-weight: bold;
+  padding-right: 16px;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 24px;
+  margin-right: 4px;
+  width: 80px;
+}
+
+button:hover {
+  background: lightgray;
+}

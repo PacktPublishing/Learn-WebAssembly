@@ -1,0 +1,50 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "Example app loading Wasm with Webpack",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "Mike Rourke <mike.w.rourke@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "babel-loader": "^8.0.0-beta.4",
+    "cpp-wasm-loader": "0.7.7",
+    "css-loader": "1.0.0",
+    "file-loader": "1.1.11",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.4.1",
+    "rimraf": "2.6.2",
+    "webpack": "4.16.5",
+    "webpack-cli": "3.1.0",
+    "webpack-dev-server": "3.1.5"
+  },
+  "dependencies": {
+    "vue": "2.5.17"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "browsers": [
+              "last 2 versions",
+              "safari >= 7"
+            ]
+          }
+        }
+      ]
+    ],
+    "parserOpts": {
+      "plugins": [
+        "objectRestSpread"
+      ]
+    }
+  }
+}

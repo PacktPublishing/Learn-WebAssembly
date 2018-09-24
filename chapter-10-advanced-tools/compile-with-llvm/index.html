@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>LLVM Test</title>
+</head>
+<body>
+  <h1>LLVM Test</h1>
+  <canvas id="myCanvas" width="255" height="255"></canvas>
+  <div style="margin-top: 16px;">
+    <button id="actionButton" style="width: 100px; height: 24px;">
+      Pause
+    </button>
+  </div>
+  <script type="application/javascript">
+    const canvas = document.querySelector('#myCanvas');
+    const ctx = canvas.getContext('2d');
+
+    const importObj = {
+      env: {
+        memoryBase: 0,
+        tableBase: 0,
+        memory: new WebAssembly.Memory({ initial: 256 }),
+        table: new WebAssembly.Table({ initial: 8, element: 'anyfunc' }),
+        abort: console.log,
+        jsFillRect: function(x, y, w, h) {
+          ctx.fillStyle = '#0000ff';
+          ctx.fillRect(x, y, w, h);
+        },
+        jsClearRect: function() {
+          ctx.fillStyle = '#ff0000';
+          ctx.fillRect(0, 0, 255, 255);
+        }
+      }
+    };
+
+    WebAssembly.instantiateStreaming(fetch('main.wasm'), importObj)
+      .then(({ instance }) => {
+        const m = instance.exports;
+        m.init();
+
+        const loopRectMotion = () => {
+          setTimeout(() => {
+            m.moveRect();
+            if (m.getIsRunning()) loopRectMotion();
+          }, 20)
+        };
+
+        document.querySelector('#actionButton')
+          .addEventListener('click', event => {
+            const newIsRunning = !m.getIsRunning();
+            m.setIsRunning(newIsRunning);
+            event.target.innerHTML = newIsRunning ? 'Pause' : 'Start';
+            if (newIsRunning) loopRectMotion();
+          });
+
+          loopRectMotion();
+        });
+  </script>
+</body>
+</html>

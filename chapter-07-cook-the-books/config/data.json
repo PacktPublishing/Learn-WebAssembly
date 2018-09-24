@@ -1,0 +1,922 @@
+[
+  {
+    "id": 1000,
+    "transactionDate": "2017-08-02",
+    "toFrom": "Uncle Buck's Insurance",
+    "type": "Withdrawal",
+    "category": "Insurance",
+    "rawAmount": -1200,
+    "cookedAmount": -1000,
+    "description": "Insurance for business"
+  },
+  {
+    "id": 1001,
+    "transactionDate": "2017-08-03",
+    "toFrom": "Plane Ticket Jubilee",
+    "type": "Withdrawal",
+    "category": "Travelling",
+    "rawAmount": -602,
+    "cookedAmount": -557,
+    "description": "Travel to a client site for business"
+  },
+  {
+    "id": 1002,
+    "transactionDate": "2017-08-03",
+    "toFrom": "Derek Schuff",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 2378,
+    "cookedAmount": 2600,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1003,
+    "transactionDate": "2017-08-06",
+    "toFrom": "The Legitimate Inn",
+    "type": "Withdrawal",
+    "category": "Hotels",
+    "rawAmount": -525,
+    "cookedAmount": -450,
+    "description": "Three night stay for a conference or something"
+  },
+  {
+    "id": 1004,
+    "transactionDate": "2017-08-11",
+    "toFrom": "Limin Zhu",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 5904,
+    "cookedAmount": 7250,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1005,
+    "transactionDate": "2017-08-14",
+    "toFrom": "Benjamin Bouvier",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 5390,
+    "cookedAmount": 5805,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1006,
+    "transactionDate": "2017-08-16",
+    "toFrom": "Uncle Buck's Computer Warehouse",
+    "type": "Withdrawal",
+    "category": "Computer & Internet",
+    "rawAmount": -350,
+    "cookedAmount": -250,
+    "description": "New keyboard"
+  },
+  {
+    "id": 1007,
+    "transactionDate": "2017-09-01",
+    "toFrom": "The Food Restaurant",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -127,
+    "cookedAmount": -102,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1008,
+    "transactionDate": "2017-09-01",
+    "toFrom": "The Landlord",
+    "type": "Withdrawal",
+    "category": "Rent",
+    "rawAmount": -2000,
+    "cookedAmount": -1800,
+    "description": "Paid for the rent"
+  },
+  {
+    "id": 1009,
+    "transactionDate": "2017-09-07",
+    "toFrom": "The Food Restaurant",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -100,
+    "cookedAmount": -76,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1010,
+    "transactionDate": "2017-09-12",
+    "toFrom": "Tickets Tickets Tickets!",
+    "type": "Withdrawal",
+    "category": "Travelling",
+    "rawAmount": -427,
+    "cookedAmount": -401,
+    "description": "Travel to a client site for business"
+  },
+  {
+    "id": 1011,
+    "transactionDate": "2017-09-20",
+    "toFrom": "Brad Nelson",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 8953,
+    "cookedAmount": 10177,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1012,
+    "transactionDate": "2017-10-01",
+    "toFrom": "The Food Restaurant",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -36,
+    "cookedAmount": -26,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1013,
+    "transactionDate": "2017-10-01",
+    "toFrom": "The Legitimate Inn",
+    "type": "Withdrawal",
+    "category": "Hotels",
+    "rawAmount": -175,
+    "cookedAmount": -150,
+    "description": "One night stay for business"
+  },
+  {
+    "id": 1014,
+    "transactionDate": "2017-10-01",
+    "toFrom": "The Landlord",
+    "type": "Withdrawal",
+    "category": "Rent",
+    "rawAmount": -2000,
+    "cookedAmount": -1800,
+    "description": "Paid for the rent"
+  },
+  {
+    "id": 1015,
+    "transactionDate": "2017-10-03",
+    "toFrom": "The Legitimate Inn",
+    "type": "Withdrawal",
+    "category": "Hotels",
+    "rawAmount": -175,
+    "cookedAmount": -150,
+    "description": "One night stay for business"
+  },
+  {
+    "id": 1016,
+    "transactionDate": "2017-10-08",
+    "toFrom": "The Legitimate Inn",
+    "type": "Withdrawal",
+    "category": "Hotels",
+    "rawAmount": -350,
+    "cookedAmount": -300,
+    "description": "Two night stay for networking event"
+  },
+  {
+    "id": 1017,
+    "transactionDate": "2017-10-17",
+    "toFrom": "Torphy, Prosacco and Schmeler",
+    "type": "Deposit",
+    "category": "Retained Earnings",
+    "rawAmount": 2494,
+    "cookedAmount": 3180,
+    "description": "Retained the earnings"
+  },
+  {
+    "id": 1018,
+    "transactionDate": "2017-10-24",
+    "toFrom": "Conrad Watt",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 5622,
+    "cookedAmount": 5944,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1019,
+    "transactionDate": "2017-10-29",
+    "toFrom": "Lin Clark",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 8789,
+    "cookedAmount": 11076,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1020,
+    "transactionDate": "2017-11-01",
+    "toFrom": "The Landlord",
+    "type": "Withdrawal",
+    "category": "Rent",
+    "rawAmount": -2000,
+    "cookedAmount": -1800,
+    "description": "Paid for the rent"
+  },
+  {
+    "id": 1021,
+    "transactionDate": "2017-11-01",
+    "toFrom": "Uncle Buck's Insurance",
+    "type": "Withdrawal",
+    "category": "Insurance",
+    "rawAmount": -1200,
+    "cookedAmount": -1000,
+    "description": "Insurance for business"
+  },
+  {
+    "id": 1022,
+    "transactionDate": "2017-11-14",
+    "toFrom": "Uncle Buck's Stuff Repair",
+    "type": "Withdrawal",
+    "category": "Repairs & Maintenance",
+    "rawAmount": -3135,
+    "cookedAmount": -2850,
+    "description": "Had stuff repaired"
+  },
+  {
+    "id": 1023,
+    "transactionDate": "2017-11-14",
+    "toFrom": "The Food Restaurant",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -41,
+    "cookedAmount": -29,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1024,
+    "transactionDate": "2017-11-15",
+    "toFrom": "Luke Wagner",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 7937,
+    "cookedAmount": 8973,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1025,
+    "transactionDate": "2017-12-01",
+    "toFrom": "The Landlord",
+    "type": "Withdrawal",
+    "category": "Rent",
+    "rawAmount": -2000,
+    "cookedAmount": -1800,
+    "description": "Paid for the rent"
+  },
+  {
+    "id": 1026,
+    "transactionDate": "2017-12-07",
+    "toFrom": "The Food Restaurant",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -133,
+    "cookedAmount": -88,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1027,
+    "transactionDate": "2017-12-08",
+    "toFrom": "Uncle Buck's Stuff Repair",
+    "type": "Withdrawal",
+    "category": "Repairs & Maintenance",
+    "rawAmount": -1256,
+    "cookedAmount": -1008,
+    "description": "Had repaired stuff re-repaired"
+  },
+  {
+    "id": 1028,
+    "transactionDate": "2017-12-11",
+    "toFrom": "The Food Restaurant",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -59,
+    "cookedAmount": -37,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1029,
+    "transactionDate": "2017-12-17",
+    "toFrom": "Alon Zakai",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 1265,
+    "cookedAmount": 1897,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1030,
+    "transactionDate": "2017-12-21",
+    "toFrom": "Jacob Gravelle",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 6606,
+    "cookedAmount": 7707,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1031,
+    "transactionDate": "2017-12-25",
+    "toFrom": "Jay Phelps",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 627,
+    "cookedAmount": 941,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1032,
+    "transactionDate": "2017-12-26",
+    "toFrom": "Alon Zakai",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 364,
+    "cookedAmount": 546,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1033,
+    "transactionDate": "2018-01-01",
+    "toFrom": "The Landlord",
+    "type": "Withdrawal",
+    "category": "Rent",
+    "rawAmount": -2000,
+    "cookedAmount": -1800,
+    "description": "Paid for the rent"
+  },
+  {
+    "id": 1034,
+    "transactionDate": "2018-01-07",
+    "toFrom": "Dan Ehrenberg",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 1059,
+    "cookedAmount": 1536,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1035,
+    "transactionDate": "2018-01-10",
+    "toFrom": "Andreas Rossberg",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 8827,
+    "cookedAmount": 9987,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1036,
+    "transactionDate": "2018-01-11",
+    "toFrom": "Farrell Inc",
+    "type": "Deposit",
+    "category": "Retained Earnings",
+    "rawAmount": 4762,
+    "cookedAmount": 5705,
+    "description": "Retained the earnings"
+  },
+  {
+    "id": 1037,
+    "transactionDate": "2018-01-14",
+    "toFrom": "Daniel Ehrenberg",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 4768,
+    "cookedAmount": 6582,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1038,
+    "transactionDate": "2018-01-16",
+    "toFrom": "Anirduha Gupta",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 4001,
+    "cookedAmount": 4439,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1039,
+    "transactionDate": "2018-01-19",
+    "toFrom": "The Legitimate Inn",
+    "type": "Withdrawal",
+    "category": "Hotels",
+    "rawAmount": -175,
+    "cookedAmount": -150,
+    "description": "One night stay for business"
+  },
+  {
+    "id": 1040,
+    "transactionDate": "2018-01-20",
+    "toFrom": "Dave Voyles",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 2438,
+    "cookedAmount": 2926,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1041,
+    "transactionDate": "2018-01-23",
+    "toFrom": "Uncle Buck's Stuff Repair",
+    "type": "Withdrawal",
+    "category": "Repairs & Maintenance",
+    "rawAmount": -2005,
+    "cookedAmount": -1855,
+    "description": "Maintained the things"
+  },
+  {
+    "id": 1042,
+    "transactionDate": "2018-01-26",
+    "toFrom": "Hudson, Frami and O'Kon",
+    "type": "Deposit",
+    "category": "Retained Earnings",
+    "rawAmount": 1944,
+    "cookedAmount": 2335,
+    "description": "Retained the earnings"
+  },
+  {
+    "id": 1043,
+    "transactionDate": "2018-01-28",
+    "toFrom": "David Piepgrass",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 2974,
+    "cookedAmount": 4008,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1044,
+    "transactionDate": "2018-01-30",
+    "toFrom": "Ticket Party",
+    "type": "Withdrawal",
+    "category": "Travelling",
+    "rawAmount": -380,
+    "cookedAmount": -326,
+    "description": "Had to travel to a different business site for client business"
+  },
+  {
+    "id": 1045,
+    "transactionDate": "2018-01-31",
+    "toFrom": "Heaney, Lindgren and Monahan",
+    "type": "Deposit",
+    "category": "Retained Earnings",
+    "rawAmount": 6961,
+    "cookedAmount": 8701,
+    "description": "Retained the earnings"
+  },
+  {
+    "id": 1046,
+    "transactionDate": "2018-02-01",
+    "toFrom": "The Landlord",
+    "type": "Withdrawal",
+    "category": "Rent",
+    "rawAmount": -2000,
+    "cookedAmount": -1800,
+    "description": "Paid for the rent"
+  },
+  {
+    "id": 1047,
+    "transactionDate": "2018-02-01",
+    "toFrom": "Jacobi Group",
+    "type": "Deposit",
+    "category": "Retained Earnings",
+    "rawAmount": 8090,
+    "cookedAmount": 9978,
+    "description": "Retained the earnings"
+  },
+  {
+    "id": 1048,
+    "transactionDate": "2018-02-04",
+    "toFrom": "Pat Hickey",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 8596,
+    "cookedAmount": 10106,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1049,
+    "transactionDate": "2018-02-06",
+    "toFrom": "Uncle Buck's Stuff Repair",
+    "type": "Withdrawal",
+    "category": "Repairs & Maintenance",
+    "rawAmount": -656,
+    "cookedAmount": -577,
+    "description": "You know how maintenance goes"
+  },
+  {
+    "id": 1050,
+    "transactionDate": "2018-02-06",
+    "toFrom": "The Legitimate Inn",
+    "type": "Withdrawal",
+    "category": "Hotels",
+    "rawAmount": -175,
+    "cookedAmount": -150,
+    "description": "One night stay for business"
+  },
+  {
+    "id": 1051,
+    "transactionDate": "2018-02-07",
+    "toFrom": "Uncle Buck's Insurance",
+    "type": "Withdrawal",
+    "category": "Insurance",
+    "rawAmount": -1200,
+    "cookedAmount": -1000,
+    "description": "Insurance for business"
+  },
+  {
+    "id": 1052,
+    "transactionDate": "2018-02-14",
+    "toFrom": "The Food Restaurant",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -89,
+    "cookedAmount": -54,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1053,
+    "transactionDate": "2018-02-16",
+    "toFrom": "The Food Bistro",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -121,
+    "cookedAmount": -69,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1054,
+    "transactionDate": "2018-02-17",
+    "toFrom": "Uncle Buck's Computer Warehouse",
+    "type": "Withdrawal",
+    "category": "Computer & Internet",
+    "rawAmount": -600,
+    "cookedAmount": -500,
+    "description": "Monitor for office"
+  },
+  {
+    "id": 1055,
+    "transactionDate": "2018-02-25",
+    "toFrom": "The Food Bistro",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -183,
+    "cookedAmount": -99,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1056,
+    "transactionDate": "2018-02-27",
+    "toFrom": "The Legitimate Inn",
+    "type": "Withdrawal",
+    "category": "Hotels",
+    "rawAmount": -175,
+    "cookedAmount": -150,
+    "description": "One night stay for business"
+  },
+  {
+    "id": 1057,
+    "transactionDate": "2018-02-28",
+    "toFrom": "Plane Ticket Jubilee",
+    "type": "Withdrawal",
+    "category": "Travelling",
+    "rawAmount": -400,
+    "cookedAmount": -361,
+    "description": "Business business"
+  },
+  {
+    "id": 1058,
+    "transactionDate": "2018-03-01",
+    "toFrom": "The Landlord",
+    "type": "Withdrawal",
+    "category": "Rent",
+    "rawAmount": -2000,
+    "cookedAmount": -1800,
+    "description": "Paid for the rent"
+  },
+  {
+    "id": 1059,
+    "transactionDate": "2018-03-01",
+    "toFrom": "Uncle Buck's Computer Warehouse",
+    "type": "Withdrawal",
+    "category": "Computer & Internet",
+    "rawAmount": -750,
+    "cookedAmount": -550,
+    "description": "Mousepad (super super nice mousepad)"
+  },
+  {
+    "id": 1060,
+    "transactionDate": "2018-03-02",
+    "toFrom": "The Food Restaurant",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -106,
+    "cookedAmount": -102,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1061,
+    "transactionDate": "2018-03-03",
+    "toFrom": "Tickets Tickets Tickets!",
+    "type": "Withdrawal",
+    "category": "Travelling",
+    "rawAmount": -850,
+    "cookedAmount": -805,
+    "description": "Plane ticket for business"
+  },
+  {
+    "id": 1062,
+    "transactionDate": "2018-03-04",
+    "toFrom": "JF Bastien",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 483,
+    "cookedAmount": 724,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1063,
+    "transactionDate": "2018-03-08",
+    "toFrom": "Kihn, Lind and Zemlak",
+    "type": "Deposit",
+    "category": "Retained Earnings",
+    "rawAmount": 3648,
+    "cookedAmount": 4505,
+    "description": "Retained the earnings"
+  },
+  {
+    "id": 1064,
+    "transactionDate": "2018-03-10",
+    "toFrom": "Ticket Party",
+    "type": "Withdrawal",
+    "category": "Travelling",
+    "rawAmount": -246,
+    "cookedAmount": -220,
+    "description": "Had to travel to a different business site for client business"
+  },
+  {
+    "id": 1065,
+    "transactionDate": "2018-03-23",
+    "toFrom": "The Food Bistro",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -115,
+    "cookedAmount": -60,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1066,
+    "transactionDate": "2018-03-29",
+    "toFrom": "John Hall",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 3421,
+    "cookedAmount": 4498,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1067,
+    "transactionDate": "2018-03-31",
+    "toFrom": "Michael Ferris",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 3505,
+    "cookedAmount": 3978,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1068,
+    "transactionDate": "2018-04-01",
+    "toFrom": "The Landlord",
+    "type": "Withdrawal",
+    "category": "Rent",
+    "rawAmount": -2000,
+    "cookedAmount": -1800,
+    "description": "Paid for the rent"
+  },
+  {
+    "id": 1069,
+    "transactionDate": "2018-04-02",
+    "toFrom": "The Food Restaurant",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -91,
+    "cookedAmount": -76,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1070,
+    "transactionDate": "2018-04-03",
+    "toFrom": "Katelyn Gadd",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 2614,
+    "cookedAmount": 3268,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1071,
+    "transactionDate": "2018-04-11",
+    "toFrom": "The Legitimate Inn",
+    "type": "Withdrawal",
+    "category": "Hotels",
+    "rawAmount": -350,
+    "cookedAmount": -300,
+    "description": "Two night stay for business"
+  },
+  {
+    "id": 1072,
+    "transactionDate": "2018-04-19",
+    "toFrom": "Ben Smith",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 5384,
+    "cookedAmount": 5987,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1073,
+    "transactionDate": "2018-04-20",
+    "toFrom": "Keith Miller",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 1538,
+    "cookedAmount": 2065,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1074,
+    "transactionDate": "2018-04-21",
+    "toFrom": "Peter Jensen",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 7768,
+    "cookedAmount": 10056,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1075,
+    "transactionDate": "2018-04-23",
+    "toFrom": "The Food Bistro",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -151,
+    "cookedAmount": -80,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1076,
+    "transactionDate": "2018-05-01",
+    "toFrom": "The Landlord",
+    "type": "Withdrawal",
+    "category": "Rent",
+    "rawAmount": -2000,
+    "cookedAmount": -1800,
+    "description": "Paid for the rent"
+  },
+  {
+    "id": 1077,
+    "transactionDate": "2018-05-08",
+    "toFrom": "The Food Bistro",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -100,
+    "cookedAmount": -67,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1078,
+    "transactionDate": "2018-05-13",
+    "toFrom": "Deepti Gandluri",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 9943,
+    "cookedAmount": 12085,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1079,
+    "transactionDate": "2018-05-15",
+    "toFrom": "Michael Hablich",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 466,
+    "cookedAmount": 699,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1080,
+    "transactionDate": "2018-05-15",
+    "toFrom": "Lachlan Sneff",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 8287,
+    "cookedAmount": 9908,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1081,
+    "transactionDate": "2018-05-18",
+    "toFrom": "Simonis, Walker and Quigley",
+    "type": "Deposit",
+    "category": "Retained Earnings",
+    "rawAmount": 9236,
+    "cookedAmount": 11053,
+    "description": "Retained the earnings"
+  },
+  {
+    "id": 1082,
+    "transactionDate": "2018-05-23",
+    "toFrom": "Plane Ticket Jubilee",
+    "type": "Withdrawal",
+    "category": "Travelling",
+    "rawAmount": -493,
+    "cookedAmount": -420,
+    "description": "Plane ticket for business"
+  },
+  {
+    "id": 1083,
+    "transactionDate": "2018-05-29",
+    "toFrom": "The Legitimate Inn",
+    "type": "Withdrawal",
+    "category": "Hotels",
+    "rawAmount": -350,
+    "cookedAmount": -300,
+    "description": "Two night stay for business"
+  },
+  {
+    "id": 1084,
+    "transactionDate": "2018-06-01",
+    "toFrom": "The Landlord",
+    "type": "Withdrawal",
+    "category": "Rent",
+    "rawAmount": -2000,
+    "cookedAmount": -1800,
+    "description": "Paid for the rent"
+  },
+  {
+    "id": 1085,
+    "transactionDate": "2018-06-03",
+    "toFrom": "The Food Bistro",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -140,
+    "cookedAmount": -63,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1086,
+    "transactionDate": "2018-06-04",
+    "toFrom": "The Food Bistro",
+    "type": "Withdrawal",
+    "category": "Meals & Entertainment",
+    "rawAmount": -106,
+    "cookedAmount": -60,
+    "description": "Dinner with a client"
+  },
+  {
+    "id": 1087,
+    "transactionDate": "2018-06-16",
+    "toFrom": "Uncle Buck's Stuff Repair",
+    "type": "Withdrawal",
+    "category": "Repairs & Maintenance",
+    "rawAmount": -1095,
+    "cookedAmount": -850,
+    "description": "Had the repaired thing maintained to ensure it doesn't need re-repairing"
+  },
+  {
+    "id": 1088,
+    "transactionDate": "2018-06-21",
+    "toFrom": "Ben Titzer",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 6533,
+    "cookedAmount": 7980,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1089,
+    "transactionDate": "2018-06-24",
+    "toFrom": "Lars Hansen",
+    "type": "Deposit",
+    "category": "Sales Revenue",
+    "rawAmount": 6284,
+    "cookedAmount": 7460,
+    "description": "Sold some stuff"
+  },
+  {
+    "id": 1090,
+    "transactionDate": "2018-06-25",
+    "toFrom": "Uncle Buck's Insurance",
+    "type": "Withdrawal",
+    "category": "Insurance",
+    "rawAmount": -1200,
+    "cookedAmount": -1000,
+    "description": "Insurance for business"
+  },
+  {
+    "id": 1091,
+    "transactionDate": "2018-06-28",
+    "toFrom": "Uncle Buck's Computer Warehouse",
+    "type": "Withdrawal",
+    "category": "Computer & Internet",
+    "rawAmount": -2200,
+    "cookedAmount": -2000,
+    "description": "Toner (super super nice toner)"
+  }
+]

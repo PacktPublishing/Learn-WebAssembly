@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>Wasm Workers</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <form class="valueForm">
+    <div class="valueForm">
+      <label for="firstVal">First Value:</label>
+      <input id="firstVal" type="number" value="0" />
+    </div>
+    <div class="valueForm">
+      <label for="secondVal">Second Value:</label>
+      <input id="secondVal" type="number" value="0" />
+    </div>
+    <div class="valueForm">
+      <label for="result">Result:</label>
+      <input id="result" type="number" value="0" readonly />
+    </div>
+  </form>
+  <div>
+    <button id="add">Add</button>
+    <button id="subtract">Subtract</button>
+    <button id="reset">Reset</button>
+  </div>
+  <script type="module" src="index.js"></script>
+</body>
+</html>

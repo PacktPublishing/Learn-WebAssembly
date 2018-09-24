@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+:root {
+  --blue: #2889ed;
+}
+
+* {
+  font-family: "Quicksand", Helvetica, Arial, sans-serif !important;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.addTransactionButton {
+  color: white;
+  height: 64px;
+  width: 64px;
+  background: var(--blue);
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+
+.addTransactionButton:hover {
+  color: white;
+  background-color: var(--blue);
+  opacity: .6;
+}
+
+.errorText {
+  color: white;
+  font-size: 36px;
+}
+
+.appHeader {
+  height: 80px;
+  margin: 0;
+}
+
+.balanceEntry {
+  font-size: 2rem;
+}
+
+.tableAmount {
+  white-space: pre;
+}

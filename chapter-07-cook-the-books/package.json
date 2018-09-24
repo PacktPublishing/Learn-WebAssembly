@@ -1,0 +1,17 @@
+{
+  "name": "cook-the-books",
+  "version": "1.0.0",
+  "description": "Example application for Learn WebAssembly",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "browser-sync start --server \"src\" --files \"src/**\" --single --no-open --port 4000",
+    "setup-api": "node config/setup-api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mike Rourke",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.24.6"
+  }
+}
