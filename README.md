@@ -61,8 +61,8 @@ With the following software and hardware list you can run all code files present
 | Chapter | Hardware required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
 | All | 1.6 GHz or faster processor | Mac OS X Yosemite or higher |
-|  | 2 GB of RAM | Ubuntu 16.04 LTS or higher |
-|  | 4 GB of hard drive space | Windows 7, 8.0, 8.1 or 10 (32-bit and 64-bit)* |
+| All  | 2 GB of RAM | Ubuntu 16.04 LTS or higher |
+| All  | 4 GB of hard drive space | Windows 7, 8.0, 8.1 or 10 (32-bit and 64-bit)* |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788997379_ColorImages.pdf).
 
