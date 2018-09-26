@@ -32,11 +32,11 @@ This is the code repository for [Learn WebAssembly](https://www.packtpub.com/web
 WebAssembly is a brand-new technology that represents a paradigm shift in web development. This book aims to teaches programmers how to leverage this technology to write high- performance applications that run in the browser.
 
 This book covers the following exciting features:
-Learn how WebAssembly came to be and its associated elements (text format, module, and JavaScript API) 
-Create, load, and debug a WebAssembly module (editor and compiler/toolchain) 
-Build a high-performance application using C and WebAssembly 
-Extend WebAssembly’s feature set using Emscripten by porting a game written in C++ 
-Explore upcoming features of WebAssembly, Node.js integration, and alternative compilation methods 
+* Learn how WebAssembly came to be and its associated elements (text format, module, and JavaScript API) 
+* Create, load, and debug a WebAssembly module (editor and compiler/toolchain) 
+* Build a high-performance application using C and WebAssembly 
+* Extend WebAssembly’s feature set using Emscripten by porting a game written in C++ 
+* Explore upcoming features of WebAssembly, Node.js integration, and alternative compilation methods 
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788997379) today!
 
@@ -58,7 +58,7 @@ If you are a web developer or C/C++ programmer keen to leverage the powerful tec
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-10).
 ### Software and Hardware List
-| Chapter | Software required | OS required |
+| Chapter | Hardware required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
 | All | 1.6 GHz or faster processor | Mac OS X Yosemite or higher |
 |  | 2 GB of RAM | Ubuntu 16.04 LTS or higher |
