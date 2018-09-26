@@ -67,13 +67,9 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788997379_ColorImages.pdf).
 
 ### Related products
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
+*  Angular 6 for Enterprise-Ready Web Applications [[Packt]](https://www.packtpub.com/web-development/angular-6-enterprise-ready-web-applications?utm_source=github&utm_medium=repository&utm_campaign=9781786462909) [[Amazon]](https://www.amazon.com/dp/1786462907)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
+* Mastering The Faster Web with PHP, MySQL, and JavaScript [[Packt]](https://www.packtpub.com/web-development/mastering-faster-web-php-mysql-and-javascript?utm_source=github&utm_medium=repository&utm_campaign=9781788392211) [[Amazon]](https://www.amazon.com/dp/1788392213)
 
 ## Get to Know the Author
 **Mike Rourke**
