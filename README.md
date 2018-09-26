@@ -44,7 +44,7 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788
 alt="https://www.packtpub.com/" border="5" /></a>
 
 ## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter02.
+All of the code is organized into folders.
 
 The code will look like the following:
 ```
