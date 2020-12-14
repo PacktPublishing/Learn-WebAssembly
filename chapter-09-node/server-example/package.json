@@ -17,7 +17,7 @@
     "lowdb": "^1.0.0"
   },
   "devDependencies": {
-    "node-fetch": "^2.2.0",
+    "node-fetch": "^2.6.1",
     "nodemon": "^1.18.3",
     "rimraf": "^2.6.2"
   }
