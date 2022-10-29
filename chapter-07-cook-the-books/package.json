@@ -12,6 +12,6 @@
   "author": "Mike Rourke",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.24.6"
+    "browser-sync": "^2.27.10"
   }
 }
